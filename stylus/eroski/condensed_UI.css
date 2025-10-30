@@ -1,0 +1,75 @@
+/* ==UserStyle==
+@name           eroski\condensed_UI.css
+@namespace      https://github.com/MiguelOteroRey/scripts/stylus
+@version        1.0.0
+@description    Changes to condense de UI
+@author         Miguel Otero
+==/UserStyle== */
+
+@-moz-document domain("eroski.es") {
+    /* Inserte el código aquí... */
+    
+    
+    
+
+    
+    .product-description
+    {
+        width: 46%!important;
+    }
+
+.product-price-cart
+    {
+        width: 10%!important;
+    }
+
+    /*
+    .add-product .add-product-btn a.update 
+    {
+        width: 30%;
+    }
+    
+    
+    
+    .add-product .add-product-btn .input-group {
+        width: 36%;
+    }*/
+
+    .wrap-shopping-cart 
+    {
+    max-width: 150rem;
+    }
+
+    /*.touchpin-product-cart{    width: 85%!important;}*/
+    
+    
+    .summary-fixed-shopping-cart
+    {
+        width: 85%!important;
+        
+    }
+    
+    .summary-shopping-cart-container
+    {
+        width:80%;
+    }
+
+     .shopping-cart-content 
+    {
+    width:105%
+    }
+    .shopping-cart-item-content 
+    {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    
+    }
+    
+    h2.title{
+
+        display: none;
+    }
+
+
+    .add-product-cart{width:24%;}
+
+}

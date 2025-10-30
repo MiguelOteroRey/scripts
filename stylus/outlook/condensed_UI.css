@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name           outlook\condensed_UI.css
+@namespace      https://github.com/MiguelOteroRey/scripts/stylus
+@version        1.0.0
+@description    Changes to condense de UI
+@author         Miguel Otero
+==/UserStyle== */
+
+
+
+@-moz-document url-prefix("https://outlook.live.com/mail/0/") 
+{
+   /*Ocultar anuncios de pseudomensajes*/
+    .kk1xx.lHRXq.iIsOF.OXL_K.IjQyD.ypzld.YmHO2.DLvHz 
+    {
+        display: none !important;
+    }
+
+}

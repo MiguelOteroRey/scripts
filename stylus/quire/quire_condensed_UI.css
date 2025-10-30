@@ -1,0 +1,31 @@
+/* ==UserStyle==
+@name           quire.io/w/Agenda_202528/818
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("https://quire.io/w/Agenda_") {
+    /* Inserte el código aquí... */
+    
+    .board .board-column-header, .board .board-column-body 
+    {
+        width: 300px;
+    
+
+        padding: var(--board-card-space) 5px calc(var(--board-add-task-bar-height) + var(--board-card-space) * 2) 5px;
+        padding-right: 5px;
+    }
+
+
+    .board .board-column
+    {
+        padding-right: 10px;
+    }
+
+
+
+
+
+}
